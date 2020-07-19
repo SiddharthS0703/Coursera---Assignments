@@ -1,2 +1,0 @@
-peachiGreeter.hello();
-sidGreeter.hi();
