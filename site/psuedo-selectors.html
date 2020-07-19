@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pseudo-Class Selectors Practice</title>
+<style>
+/* Styles go here. */
+header li {
+  list-style: none;
+}
+body{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  color: orange;
+  background-color: white;
+  text-align: center;
+}
+section{
+  font-family:Times, serif, default;
+  color: red;
+  font-style: italic;
+}
+a:link, a:visited {
+  text-decoration: none;
+  background-color: yellow;
+  border: 1px solid blue;
+  color: blue;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+a:hover, a:active {
+  background-color: red;
+  color: purple;
+}
+
+header li:nth-child(3) {
+  font-size: 20px;
+}
+
+section div:nth-child(odd) {
+  background-color: pink;
+}
+
+section div:nth-child(4):hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<h1>Pseudo Class Selectors</h1>
+
+<header>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJS Course</a></li>
+    <li><a href="https://github.com/SiddharthS0703/Coursera---Assignments" target="_blank">GITHUB repository</a></li>
+  </ul>
+</header>
+
+<section>
+  <div>DIV 1</div>
+  <div>DIV 2</div>
+  <div>DIV 3</div>
+  <div>DIV 4</div>
+  <div>DIV 5</div>
+  <div>DIV 6</div>
+  <div>DIV 7</div>
+  <div>DIV 8</div>
+  <div>DIV 9</div>
+  <div>DIV 10</div>
+
+</section>
+
+</body>
+</html>

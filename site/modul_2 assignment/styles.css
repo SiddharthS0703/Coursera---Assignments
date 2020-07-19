@@ -1,0 +1,68 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.row section ,span{
+border: 1px solid black;
+}
+section {
+    background-color: grey;
+    padding: 5px;
+     margin: 0 10px 20px 10px;
+     display: inline-block;
+     font-family: serif;
+}
+
+
+.b1 span {
+    background-color: rosybrown;
+    border-top: none;
+    border-right: none;
+}
+.b2 span {
+    background-color: indianred;
+    border-top: none;
+    border-right: none;
+}
+}
+.b3 span {
+    background-color: yellow;
+    border-top: none;
+    border-right: none;
+}
+section{
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 165px;
+    height: 20px;
+    text-transform: capitalize;
+}
+p{
+    margin-top: 30px;
+}
+@media (min-width: 992px) {
+    .b1 , .b2 , .b3 {
+        float: left;
+        width: 32%;
+        padding: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .b1, .b2 {
+        float: left;
+        width: 50%;
+    }
+    .b3 {
+        float: left;
+        width: 100%;
+    }
+}

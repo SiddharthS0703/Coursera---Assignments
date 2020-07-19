@@ -1,0 +1,2 @@
+peachiGreeter.hello();
+sidGreeter.hi();
